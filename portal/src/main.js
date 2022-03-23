@@ -5,7 +5,6 @@ import { registerMicroApps, start } from 'qiankun'
 Vue.config.productionTip = false;
 
 window.vue = Vue;
-
 window.portal = 'wwwww';
 
 new Vue({

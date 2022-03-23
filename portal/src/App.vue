@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <span class="menu">
-      <h5 class="red" @click="switchApp('order')">order</h5>
-      <h5 class="red" @click="switchApp('predict')">predict</h5>
+      <h5 @click="switchApp('order')">order</h5>
+      <h5 @click="switchApp('predict')">predict</h5>
     </span>
     <div id="container"></div>
   </div>
@@ -37,6 +37,10 @@ export default {
     flex-direction: column;
     width: 200px;
     border-right: 1px solid #666;
+
+    h5 {
+      cursor: pointer;
+    }
   }
 }
 .red {

@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <h1 class="red">This is Order Page</h1>
-    <input type="text"/>
+    <h1>This is Order Page</h1>
   </div>
 </template>
 
